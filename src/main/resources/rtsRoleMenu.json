@@ -1,0 +1,90 @@
+{
+  "name": "",
+  "link": "",
+  "selected": false,
+  "subMenus": [
+    {
+      "name": "Sales",
+      "link": "/sales",
+      "selected": true,
+      "subMenus": [
+        {
+          "name": "Supplier",
+          "link": "/supplier",
+          "selected": true,
+          "subMenus": [
+            {
+              "name": "Add Supplier",
+              "selected": true
+            },
+            {
+              "name": "Delete Supplier",
+              "selected": false
+            },
+            {
+              "name": "Edit Supplier",
+              "selected": false
+            },
+            {
+              "name": "List Supplier",
+              "selected": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Employees",
+      "link": "/employees",
+      "selected": true,
+      "subMenus": [
+        {
+          "name": "User Roles",
+          "link": "/userRole",
+          "selected": true,
+          "subMenus": [
+            {
+              "name": "Create Role",
+              "selected": true
+            },
+            {
+              "name": "Delete Role",
+              "selected": true
+            },
+            {
+              "name": "Edit Role",
+              "selected": false
+            },
+            {
+              "name": "List Role",
+              "selected": true
+            }
+          ]
+        },
+        {
+          "name": "User",
+          "link": "/user",
+          "selected": true,
+          "subMenus": [
+            {
+              "name": "Create User",
+              "selected": false
+            },
+            {
+              "name": "Delete User",
+              "selected": true
+            },
+            {
+              "name": "Edit User",
+              "selected": false
+            },
+            {
+              "name": "List User",
+              "selected": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

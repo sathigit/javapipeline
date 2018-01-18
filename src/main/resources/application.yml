@@ -1,0 +1,15 @@
+RTS:
+  headerApiKey: RTS@2017
+  imagePath: /Users/raghu/images/
+  koronaProductsUrl : https://128.koronacloud.com/web/api/v1/{token}/products/page/{limit}/{offset}/
+  koronaLimit: 1000
+  koronaProductsUpdateUrl: https://128.koronacloud.com/api/v1/{token}/products/updates/{revision}/{limit}/{offset}
+  syncLimit: 500
+  koronaUsersUrl : https://128.koronacloud.com/web/api/v1/{token}/users/page/{limit}/{offset}/
+  koronaOrganizationalUnitsUrl : https://128.koronacloud.com/web/api/v1/{token}/organizationalUnits/page/{limit}/{offset}/
+  coreMenuPath: /Users/raghu/menu/rtsMenu.json
+  koronaReceiptsUrl : https://128.koronacloud.com/web/api/v1/{token}/fullReceipts/updates/{revision}/{limit}/{offset}/
+  koronaSuppliersUrl : https://128.koronacloud.com/web/api/v1/{token}/suppliers/page/{limit}/{offset}/
+  koronaSuppliersUpdateUrl : https://128.koronacloud.com/web/api/v1/{token}/suppliers/updates/{revision}/{limit}/{offset}/
+  koronaCommodityGroupUrl : https://128.koronacloud.com/web/api/v1/{token}/commodityGroups/page/{limit}/{offset}/
+  koronaCommodityGroupUpdateUrl : https://128.koronacloud.com/web/api/v1/{token}/commodityGroups/updates/{revision}/{limit}/{offset}/

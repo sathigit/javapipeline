@@ -1,0 +1,655 @@
+{
+	"name": "menu",
+	"menuTree": {
+  "name": "",
+  "link": "",
+  "menuId": "",
+  "icon": null,
+  "selected": false,
+  "subMenus": [
+    {
+      "name": "Dashboard",
+      "link": "/welcome",
+      "menuId": "das",
+      "icon": "fa fa-tachometer fa-2x",
+      "desc":"Dashboard displays all the information in graphical representation,it is easy to understand the profit,loss etc",
+      "selected": false,
+      "subMenus": []
+    },
+    {
+      "name": "Inventory",
+      "link": "",
+      "menuId": "inv",
+      "icon": "fa fa-cube fa-2x",
+      "desc":"Inventory displays all the information in about the products,cost,InStock,OutStock etc,it is easy to understand full of in and out information",
+      "selected": false,
+      "subMenus": [
+        {
+          "name": "Products",
+          "link": "/products",
+          "menuId": "inv-prd",
+          "icon": null,
+          "desc":"Products displays all the information in about the products,cost,InStock,OutStock etc",
+          "selected": false,
+          "subMenus": []
+        },
+        {
+          "name": "Products Sync",
+          "link": "/dataSync",
+          "menuId": "inv-dsc",
+          "icon": null,
+          "desc":"By using Products Sync,we can configure Products Sync",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Create ProductSync",
+              "link": null,
+              "menuId": "inv-dsc-add",
+              "icon": null,
+              "desc":"By using Create dataSync,we can create the new Create dataSync",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Delete ProductSync",
+              "link": null,
+              "menuId": "inv-dsc-del",
+              "icon": null,
+              "desc":"By using Delete dataSync,we can Delete Delete dataSync",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Edit ProductSync",
+              "link": null,
+              "menuId": "inv-dsc-edt",
+              "icon": null,
+              "desc":"By using Edit dataSync,we can edit existing Edit dataSync information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "List ProductSync",
+              "link": null,
+              "menuId": "inv-dsc-lst",
+              "icon": null,
+              "desc":"By using List dataSync,we can List and display existing List dataSync information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Sync Now",
+              "link": null,
+              "menuId": "inv-dsc-now",
+              "icon": null,
+              "desc":"By using Sync Now,we can Sync data from RTS Portal to korona portal",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sales",
+      "link": "",
+      "menuId": "sal",
+      "icon": "fa fa-suitcase fa-2x",
+      "desc":"Sales displays all the information in about the products,cost,InStock,OutStock etc",
+      "selected": false,
+      "subMenus": [
+        {
+          "name": "Supplier",
+          "link": "/supplier",
+          "menuId": "sal-sup",
+          "icon": null,
+          "desc":"Sales displays all the Sales information",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Add Supplier",
+              "link": null,
+              "menuId": "sal-sup-add",
+              "icon": null,
+              "desc":"By using Add Supplier,we can create new the Supplier information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Delete Supplier",
+              "link": null,
+              "menuId": "sal-sup-del",
+              "icon": null,
+              "desc":"By using Delete Supplier,we can Delete existing Supplier information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Edit Supplier",
+              "link": null,
+              "menuId": "sal-sup-edt",
+              "icon": null,
+              "desc":"By using Edit Supplier,we can Edit existing Supplier information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "List Supplier",
+              "link": null,
+              "menuId": "sal-sup-lst",
+              "icon": null,
+              "desc":"By using List Supplier,we can List and display existing Supplier information",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        }
+        ,
+        {
+          "name": "Sales Sync",
+          "link": "/syncSales",
+          "menuId": "sal-ss",
+          "icon": null,
+          "desc":"By using Sales Sync,we can configure Sales Sync",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Sync Sales",
+              "link": null,
+              "menuId": "sal-ss-add",
+              "icon": null,
+              "desc":"By using Sales Sync,we can configure the new sales Sync",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Employees",
+      "link": "",
+      "menuId": "emp",
+      "icon": "fa fa-users fa-2x",
+      "desc":"Employees is the main menu,under this we have two submenu User roles and user",
+      "selected": false,
+      "subMenus": [
+        {
+          "name": "User Roles",
+          "link": "/myRoles",
+          "menuId": "emp-usr-rol",
+          "icon": null,
+          "desc":"User Roles displays all the User Roles information",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Create Role",
+              "link": null,
+              "menuId": "emp-usr-rol-add",
+              "icon": null,
+              "desc":"By using Create Role,we can create the new User Roles information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Delete Role",
+              "link": null,
+              "menuId": "emp-usr-rol-del",
+              "icon": null,
+              "desc":"By using Delete Role,we can Delete existing User Role information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Edit Role",
+              "link": null,
+              "menuId": "emp-usr-rol-edt",
+              "icon": null,
+              "desc":"By using Edit Role,we can edit existing User Role information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "List Role",
+              "link": null,
+              "menuId": "emp-usr-rol-lst",
+              "icon": null,
+              "desc":"By using List Role,we can List and display existing User Role information",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        },
+        {
+          "name": "User",
+          "link": "/users",
+          "menuId": "emp-usr",
+          "icon": null,
+          "desc":"User displays all the User information",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Create User",
+              "link": null,
+              "menuId": "emp-usr-add",
+              "icon": null,
+              "desc":"By using Create User,we can create the new User information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Delete User",
+              "link": null,
+              "menuId": "emp-usr-del",
+              "icon": null,
+              "desc":"By using Delete User,we can Delete existing User information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Edit User",
+              "link": null,
+              "menuId": "emp-usr-edt",
+              "icon": null,
+              "desc":"By using Edit User,we can edit existing User information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "List User",
+              "link": null,
+              "menuId": "emp-usr-lst",
+              "icon": null,
+              "desc":"By using List User,we can List and display existing User information",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Exchange",
+      "link": "",
+      "menuId": "dte",
+      "icon": "fa fa-briefcase fa-2x",
+      "desc":"Data Exchange displays all the Data Exchange Informations",
+      "selected": false,
+      "subMenus": [
+        {
+          "name": "Import Stock Order",
+          "link": "/stackOrder",
+          "menuId": "dte-iso",
+          "icon": null,
+          "desc":"Data Exchange displays all the Data Exchange Informations",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Create Stock Order",
+              "link": null,
+              "menuId": "dte-iso-add",
+              "icon": null,
+              "desc":"By using Create Stock Order,we can create the new Create Stock Order information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "List Stock Order",
+              "link": null,
+              "menuId": "dte-iso-lst",
+              "icon": null,
+              "desc":"By using List Stock Order,we can List and display existing Stock Order information",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        },
+        {
+          "name": "Compliance Upload",
+          "link": "/complianceUpload",
+          "menuId": "dte-cmp",
+          "icon": null,
+          "desc":"Compliance Upload displays all the Compliance which is uploaded",
+          "selected": false,
+          "subMenus": []
+        }
+      ]
+    },
+    {
+      "name": "Evaluations",
+      "link": "",
+      "menuId": "eva",
+      "icon": "fa fa-pie-chart fa-2x",
+      "desc":"Evaluations information will be displayed",
+      "selected": false,
+      "subMenus": [
+        {
+          "name": "Revenue History",
+          "link": "/revenueHistory",
+          "menuId": "eva-rhi",
+          "icon": null,
+          "desc":"Revenue History information will be displayed",
+          "selected": false,
+          "subMenus": []
+        },
+        {
+         "name": "Sales Under Cost",
+          "link": "/reports",
+          "menuId": "eva-suc",
+          "icon": null,
+          "desc":"Sales Under Cost information will be displayed",
+          "selected": false,
+          "subMenus": []
+        }
+      ]
+    },
+    {
+      "name": "Handheld Apps",
+      "link": "",
+      "menuId": "dev",
+      "icon": "fa fa-tablet fa-2x",
+      "desc":"Device Data is the main menu,under this we have two submenu Print Templates and Template to Orgs",
+      "selected": false,
+      "subMenus": [
+        {
+          "name": "Print Templates",
+          "link": "/shelfLabeler",
+          "menuId": "dev-shl",
+          "icon": null,
+          "desc":"By using Print Templates,we can create the new Templates information",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Create Print Template",
+              "link": null,
+              "menuId": "dev-shl-add",
+              "icon": null,
+              "desc":"By using Create printTemplate,we can create the new Template means adding new XML Template",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        },
+        {
+          "name": "Template Permissions",
+          "link": "/shelfLabelerOrganization",
+          "menuId": "dev-slo",
+          "icon": null,
+          "desc":"By using Template to Orgs,we can map template with organization",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Create Template Permissions",
+              "link": null,
+              "menuId": "dev-slo-add",
+              "icon": null,
+              "desc":"By using Template Permissions,we can map template with organization",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "link": "",
+      "menuId": "set",
+      "icon": "fa fa-cogs fa-2x",
+      "desc":"By using Settings,we can configure Order-Form,DataSync,Package creation,organization Creation",
+      "selected": false,
+      "subMenus": [
+        {
+          "name": "Stock Order Config",
+          "link": "/orderForm",
+          "menuId": "set-soc",
+          "icon": null,
+          "desc":"By using Stock Order Config,we can configure Order-Form",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Create orderForm",
+              "link": null,
+              "menuId": "set-soc-add",
+              "icon": null,
+              "desc":"By using Create orderForm,we can create the new Create orderForm",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Delete orderForm",
+              "link": null,
+              "menuId": "set-soc-del",
+              "icon": null,
+              "desc":"By using Delete orderForm,we can Delete existing orderForm ",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Edit orderForm",
+              "link": null,
+              "menuId": "set-soc-edt",
+              "icon": null,
+              "desc":"By using Edit orderForm,we can edit existing orderForm information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "List orderForm",
+              "link": null,
+              "menuId": "set-soc-lst",
+              "icon": null,
+              "desc":"By using List orderForm,we can List and display existing List orderForm information",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        },
+        {
+          "name": "Package",
+          "link": "/package",
+          "menuId": "set-pkg",
+          "icon": null,
+          "desc":"By using Package,we can configure Packages",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Create package",
+              "link": null,
+              "menuId": "set-pkg-add",
+              "icon": null,
+              "desc":"By using Create package,we can create the new Create package",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Delete package",
+              "link": null,
+              "menuId": "set-pkg-del",
+              "icon": null,
+              "desc":"By using Delete package,we can Delete existing package information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Edit package",
+              "link": null,
+              "menuId": "set-pkg-edt",
+              "icon": null,
+              "desc":"By using Edit package,we can edit existing packages information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "List package",
+              "link": null,
+              "menuId": "set-pkg-lst",
+              "icon": null,
+              "desc":"By using List package,we can List and display existing package information",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        },
+        {
+          "name": "Organization",
+          "link": "/organization",
+          "menuId": "set-org",
+          "icon": null,
+          "desc":"By using Organization,we can configure Organization",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Create organization",
+              "link": null,
+              "menuId": "set-org-add",
+              "icon": null,
+              "desc":"By using Create organization,we can create the new organization information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Delete organization",
+              "link": null,
+              "menuId": "set-org-del",
+              "icon": null,
+              "desc":"By using Delete organization,we can Delete existing organization information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Edit organization",
+              "link": null,
+              "menuId": "set-org-edt",
+              "icon": null,
+              "desc":"By using Edit organization,we can edit existing organization information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "List organization",
+              "link": null,
+              "menuId": "set-org-lst",
+              "icon": null,
+              "desc":"By using List organization,we can List and display existing organization information",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        },
+        {
+          "name": "Sync Org",
+          "link": "/syncOrg",
+          "menuId": "set-sou",
+          "icon": null,
+          "desc":"By using Sync Org,we can configure Organization Sync",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Sync Org",
+              "link": null,
+              "menuId": "set-sou-add",
+              "icon": null,
+              "desc":"By using Sync Org,we can configure the new organization Sync",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        },
+        {
+          "name": "Product Template",
+          "link": "/newProductTemplate",
+          "menuId": "set-pt",
+          "icon": null,
+          "desc":"By using Product Template,we can configure Product Template",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Add Product Template",
+              "link": null,
+              "menuId": "set-pt-add",
+              "icon": null,
+              "desc":"By using Add Product Template,we can create the new Product Template for organization information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Delete Product Template",
+              "link": null,
+              "menuId": "set-pt-del",
+              "icon": null,
+              "desc":"By using Delete Product Template,we can Delete existing Product Template information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Edit Product Template",
+              "link": null,
+              "menuId": "set-pt-edt",
+              "icon": null,
+              "desc":"By using Edit Product Template,we can edit existing Product Template information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "List Product Template",
+              "link": null,
+              "menuId": "set-pt-lst",
+              "icon": null,
+              "desc":"By using List Product Template,we can List and display existing Product Template information",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        },
+        {
+          "name": "Stock Order Template",
+          "link": "/stockOrderTemplate",
+          "menuId": "set-sot",
+          "icon": null,
+          "desc":"By using Product Stock Order Template,we can configure Stock Order Template",
+          "selected": false,
+          "subMenus": [
+            {
+              "name": "Add Stock Order Template",
+              "link": null,
+              "menuId": "set-sot-add",
+              "icon": null,
+              "desc":"By using Add Stock Order Template,we can create the new Stock Order Template information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Delete Stock Order Template",
+              "link": null,
+              "menuId": "set-sot-del",
+              "icon": null,
+              "desc":"By using Delete Stock Order Template,we can Delete existing Stock Order Template information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "Edit Stock Order Template",
+              "link": null,
+              "menuId": "set-sot-edt",
+              "icon": null,
+              "desc":"By using Edit Stock Order Template,we can edit existing Stock Order Template information",
+              "selected": false,
+              "subMenus": []
+            },
+            {
+              "name": "List Stock Order Template",
+              "link": null,
+              "menuId": "set-sot-lst",
+              "icon": null,
+              "desc":"By using List Stock Order Template,we can List and display existing Stock Order Template information",
+              "selected": false,
+              "subMenus": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+}

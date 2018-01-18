@@ -1,0 +1,172 @@
+{
+  "name": "menu",
+  "createdDate": "2017-11-18T12:52:29.653Z",
+  "isActive": true,
+  "menuTree": {
+    "name": "",
+    "link": "",
+    "selected": false,
+    "menuId":"",
+    "subMenus": [
+      {"name": "Dashboard",
+        "link": "/welcome",
+        "icon": "fa fa-tachometer fa-2x",
+        "selected": false,
+         "menuId":"das",
+        "subMenus": []
+        },
+        {
+          "name": "Inventory",
+        "link": "",
+        "icon": "fa fa-cube fa-2x",
+        "selected": false,
+          "menuId":"inv",
+        "subMenus": [{
+          
+            "name": "Products",
+            "link": "/products",
+            "selected": false,
+             "menuId":"inv-prd",
+            "subMenus": []
+          
+        }
+        ]
+        },
+      {
+        "name": "Sales",
+        "link": "",
+        "icon": "fa fa-suitcase fa-2x",
+          "menuId":"sal",
+        "selected": false,
+        "subMenus": [
+          {
+            "name": "Supplier",
+            "link": "/supplier",
+             "menuId":"sal-sup",
+            "selected": false,
+            "subMenus": []
+          }
+        ]
+      },
+      
+      {
+        "name": "Employees",
+        "menuId":"emp",
+        "link": "",
+        "icon": "fa fa-users fa-2x",
+        "selected": false,
+        "subMenus": [
+          {
+            "name": "User Roles",
+            "link": "/myRoles",
+            "menuId":"emp-usr-rol",
+            "selected": false,
+            "subMenus": []
+          },
+          {
+            "name": "User",
+            "link": "/users",
+            "menuId":"emp-usr",
+            "selected": false,
+            "subMenus": []
+          }
+        ]
+      },
+      
+      {
+        "name": "Data Exchange",
+        "link": "",
+        "icon": "fa fa-briefcase fa-2x",
+        "menuId":"dte",
+        "selected": false,
+        "subMenus": [
+          {
+            "name": "Import Stock Order",
+            "link": "/stackOrder",
+            "menuId":"dte-iso",
+            "selected": false,
+            "subMenus": []
+          },
+          {
+            "name": "Compliance Upload",
+            "link": "/complianceUpload",
+             "menuId":"dte-cmp",
+            "selected": false,
+            "subMenus": []
+          }
+        ]
+      },
+      {
+        "name": "Evaluations",
+        "link": "",
+         "menuId":"eva",
+        "icon": "fa fa-pie-chart fa-2x",
+        "selected": false,
+        "subMenus": [
+          {
+            "name": "Revenue History",
+             "menuId":"eva-rhi",
+            "link": "/revenueHistory",
+            "selected": false,
+            "subMenus": []
+          }
+         
+        ]
+      },
+       {
+        "name": "Device",
+        "link": "",
+         "menuId":"dev",
+        "icon": "fa fa-tablet fa-2x",
+        "selected": false,
+        "subMenus": [
+          {
+            "name": "Shelf Labeler",
+            "link": "/shelfLabeler",
+             "menuId":"dev-shl",
+            "selected": false,
+            "subMenus": []
+          },
+          {
+            "name": "Shelf Labeler Org",
+            "link": "/shelfLabelerOrganization",
+             "menuId":"dev-slo",
+            "selected": false,
+            "subMenus": []
+          }
+        ]
+      },
+      {
+        "name": "Settings",
+        "link": "",
+         "menuId":"set",
+        "icon": "fa fa-cogs fa-2x",
+        "selected": false,
+        "subMenus": [
+          {
+            "name": "Stock Order Config",
+            "link": "/orderForm",
+             "menuId":"set-soc",
+            "selected": false,
+            "subMenus": []
+          },
+          {
+            "name": "Data Sync",
+            "link": "/dataSync",
+             "menuId":"set-dsc",
+            "selected": false,
+            "subMenus": []
+          },
+          {
+            "name": "Organization",
+            "link": "/organization",
+             "menuId":"set-org",
+            "selected": false,
+            "subMenus": []
+          }
+        ]
+      }
+    ]
+  },
+  "modifiedDate": "2017-11-18T12:52:29.653Z"
+}
